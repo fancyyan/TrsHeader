@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<link rel="shortcut icon" href="/trs/athena/static/images/favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>header</title>
+	<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="asset/css/header.css">	
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="asset/js/bootstrap.js"></script>
+	<script type="text/javascript" src="asset/js/header.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container" style="width: 97%;">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<div class="brand xuelogo" data-toggle="dropdown" data-trigger="hover" id="xuelogo">
+					<a href="http://xue.alibaba-inc.com" class="logo mainlogo"><em>学习平台</em></a>
+					<b class="caret"></b>
+					<span class="subline">|</span>
+					<a href="#" class="logo sublogo">享学<em>享学</em></a>
+				</div>
+				<ul class="dropdown-menu" id="homedrop">
+					<li><a href="http://xue.alibaba-inc.com/trs/athena/xiangxue.html">享学</a></li>	
+					<li class="divider"></li>
+					<li><a href="http://xue.alibaba-inc.com/trs/home.htm">培训</a></li>
+					<li><a href="http://xue.alibaba-inc.com/trs/mediaList.htm">视频</a></li>
+					<li><a href="http://xue.alibaba-inc.com/trs/document.htm">文库</a></li>
+					<li><a href="http://wen.alibaba-inc.com">问答</a></li>
+					<li class="dropdown-submenu">
+						<a href="#" class="disabled">专辑</a>
+						<ul class="dropdown-menu">
+							<li><a href="http://xue.alibaba-inc.com/trs/plan/planIndex.htm">计划</a></li>
+							<li><a href="http://xue.alibaba-inc.com/trs/plan/atlasIndex.htm">图谱</a></li>
+							<li><a href="http://xue.alibaba-inc.com/trs/special.htm">专题</a></li>
+						</ul>
+					</li>
+					<li class="divider"></li>
+					<li class="dropdown-submenu">
+						<a href="http://w.xue.alibaba-inc.com">委员会</a>
+						<ul class="dropdown-menu">
+							<li><a href="http://w.xue.alibaba-inc.com/?cat=3">产品委员会</a></li>
+							<li><a href="http://w.xue.alibaba-inc.com/?cat=5">运营委员会</a></li>
+							<li><a href="http://www.aidc.me">交互委员会</a></li>
+							<li><a href="http://dw.taobao.ali.com/index.htm">数据学会</a></li>
+							<li><a href="http://www.atatech.org/myata/all">技术协会</a></li>
+							<li><a href="http://velocity.alibaba-inc.com/projects/committee/wiki">前端委员会</a></li>							
+						</ul>
+					</li>
+					<li><a href="http://farm.alibaba-inc.com/">赛马</a></li>
+				</ul>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="/trs/athena/index.html#/seek-knowledge">求学者</a></li>
+						<li><a href="/trs/athena/index.html#/share">分享者</a></li>
+					</ul>
+					<ul class="nav pull-right">
+					<!--li><a href="#">Link</a></li-->
+						<li class="divider-vertical"></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Hi，颜秉谦 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/trs/athena/index.html#/account">我的账户</a></li>
+								<li class="divider"></li>
+								<li class="nav-header">管理员功能</li>
+			  			  		<li class="divider"></li>
+								<li><a href="https://login.alibaba-inc.com/ssoLogout.htm?BACK_URL=http://xue.alibaba-inc.com/trs">退出</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-search form-search pull-right" action="">
+						  <div class="input-append">
+						    <input type="text" class="span2 search-query" placeholder="想学什么?搜搜看..." id="SearchQuery">
+						    <button type="submit" class="btn search-btn" onclick="fullsearch();" id="searchBtn"><i class="icon-search"></i></button>
+						  </div>	
+					</form>
+				</div><!-- /.nav-collapse -->
+			</div>
+		</div><!-- /navbar-inner -->
+	</div>
+</body>
+</html>
